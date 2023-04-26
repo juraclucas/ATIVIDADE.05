@@ -1,0 +1,75 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>formulario</title>
+    
+  </head>
+  
+  </html>
+  <style>
+      .principal{
+          margin: auto;
+          max-width: 420px;
+          border-radius: 10px;
+          padding: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      main{
+          margin: auto;
+          border: 1px double black;
+          border-radius: 10px;
+          max-width: 480px;
+          background-color: white;
+          box-shadow: 5px 5px 15px;
+      } 
+      h1{
+          text-align: center;
+      }
+  </style>
+  </head>
+  <body>
+  <h1>Formulário</h1>
+  <main>
+      
+            <legend>Fale conosco</legend>
+                <div>
+                    <label for="usuario">Nome completo:</label>
+                    <input type="text" id="usuario" name="usuario"
+                    maxlength="15" placeholder="Digite seu nome" required><br><br>
+                </div>
+                <div>
+                    <label for="email">e-mail:</label>
+                    <input type="email" id="email" name="email"
+                    maxlength="15" placeholder="Digite seu email" required><br><br>
+                </div>
+                <div>
+                    <label for="select">Selecionar tema:</label>
+                    <select name="select" id="select">
+                        
+                        <option value="Selecione"> jogos</option>
+                        <option value="Selecione"> seriés</option>
+                        <option value="Selecione"> Filmes</option>
+                        <option value="Selecione"> Musica</option>
+                    </select><br><br>
+                    
+                </div>
+                <div>
+                    <label for="text">deixe seu coméntario:</label>
+                    <textarea name="text" id="text" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                </div><br><br>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Cancelar">
+                </div>
+            </div>
+    </fieldset>
+    </form>
+</main><br><br>
+<a href="questão2.html">questão 2</a>
+</body>
+</html>
